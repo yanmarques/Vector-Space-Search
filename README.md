@@ -3,6 +3,13 @@ An idiot text search using the vector space theory.
 
 # Getting started
 
+The script was written with python 3 version. It was designed for educational purposes only. 
+The vector space search does not work well with large texts because of the time consumption to index the documents, otherwise
+it is a nice start to vetorial search engines. Have fun :grin:.
+
+* References:
+  - http://ondoc.logand.com/d/2697/pdf
+
 ## Cli
 
 ```shell
