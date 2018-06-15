@@ -30,3 +30,30 @@ optional arguments:
                         The length of the text to show. Default 100.
 ```
 
+* ```-c```:
+Concordances are the frequency where a word repeats on a given text. Here you set the file text to read a text indexing the text on the search.
+
+* ```-f```
+The search text to read from a file. Postional argument that is the raw text to search. You can use this option or write the text to a file and use the ```-f``` option.
+
+* ```--dont-sort```:
+Do not sort the result by the result cosign.
+
+* ```--text-length```:
+Text length displayed on result.
+
+### Result
+
+```shell
+$ python3 vector_search.py -c text1.txt -c text4.txt -c text3.txt sex
+[*] Searching for relations...
+[+] Found 2 relations!
+
+Cosign: 0.5
+Text: vaginas, penis, pussy, sex
+
+
+Cosign: 0.02540822292337563
+Text: Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity.
+
+```
