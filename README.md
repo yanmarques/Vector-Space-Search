@@ -34,13 +34,16 @@ optional arguments:
 Concordances are the frequency where a word repeats on a given text. Here you set the file text to read a text indexing the text on the search.
 
 * ```-f```
-The search text to read from a file. Postional argument that is the raw text to search. You can use this option or write the text to a file and use the ```-f``` option.
+The search text to read from a file. 
 
 * ```--dont-sort```:
 Do not sort the result by the result cosign.
 
 * ```--text-length```:
 Text length displayed on result.
+
+* ```document```: 
+Postional argument that is the raw text to search. You can use this option or write the text to a file and use the ```-f``` option.
 
 ### Result
 
